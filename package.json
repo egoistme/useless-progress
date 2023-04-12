@@ -1,6 +1,6 @@
 {
   "name": "useless-progress",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Produce a useless automatic scrolling bar that grows on its own.",
   "main": "index.js",
   "scripts": {

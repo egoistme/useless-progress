@@ -37,10 +37,13 @@ progress.start()
 
 ## config
 
-| Attractive  | description         | Type                | default |
-| ----------- | ------------------- | ------------------- | ------- |
-| onprogress  |                     | function            | -       |
-| extremeTime | Time from 0 to 0.99 | time（millisecond） | 60000   |
+| Attractive  | description                                                  | Type     | default |
+| ----------- | ------------------------------------------------------------ | -------- | ------- |
+| onprogress  | Callback when progress increases，parameter is the current progress | function | -       |
+| extremeTime | Time from 0 to 0.99 (ms)                                     | number   | 60000   |
+| frequency   | Frequency of progress increase                               | number   | 200     |
+
+
 
 ## method
 
